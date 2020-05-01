@@ -1,15 +1,18 @@
-import React from 'react';
-import '../src/assets/css/App.css';
-import Router from './Router';
+import React from "react";
+import "../src/assets/css/App.css";
+//import Router from "./Router";
+import Header from "./components/Header";
+import Cards from "./components/Cards";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p> Hola Mundo! Saluda Matias Garcia desde React</p>
+        <Header></Header>
       </header>
-
-      <Router></Router>
+      <content>
+        <Cards></Cards>
+      </content>
     </div>
   );
 }
