@@ -1,27 +1,67 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: #0f0f0f;
+  color: white;
 }
 
-.App {
-  text-align: center;
+h1,
+h2,
+h5 {
+  color: #a35700;
 }
-
 #header {
-  background-color: #282c34;
+  background-color: #0f0f0f;
   font-size: calc(10px + 2vmin);
   color: white;
   width: 100%;
+  display: block;
 }
-.tituloPrincipal {
+.logo {
   float: left;
+}
+.navbox {
+  float: right;
+  text-align: right;
 }
 .navbar-light .navbar-nav .nav-link {
   color: white;
 }
-
+.jumbotron {
+  background-color: #282c34;
+  text-align: left;
+}
+div.container,
+.lead,
+.display-4 {
+  background-color: #282c34;
+}
 .card {
-  width: 400px;
-  height: auto;
+  width: 600px;
+  height: 200px;
+}
+
+.fatherClass {
+  display: flex;
+}
+.aside {
+  max-width: 30%;
+  display: inline-flex;
+}
+
+.positionCards {
+  flex-direction: column;
+  max-width: 70%;
   margin: 50px auto;
+}
+
+.footer {
+  text-align: center;
+}
+
+.btn {
+  margin-top: 20px;
+}
+.input-group {
+  width: 300px;
 }
